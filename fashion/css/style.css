@@ -1,0 +1,163 @@
+#principal{
+    width: 55%;
+    margin: auto;
+    min-width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    background-color: black;
+}
+/*Header*/
+header{
+    position: relative;
+}
+nav li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+}
+#modelo{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(10, 85, 119);
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-right: 15px;
+}
+ul{
+    position: absolute;
+    display: inline-block;
+    text-align: right;
+    font-size: 10px;
+    margin: 0;
+    width: 100%;
+    padding: 8px 0;
+    background-color: #081a24;
+}
+#logo{
+    display: inline-block;
+    width: auto;
+    position: absolute;
+    z-index: 5;
+    top: 10px;
+    left: 17%;
+}
+header nav a:hover{
+    color: white;
+    transition-duration: 0.6s ;
+}
+/*main*/
+.main-sections{
+    text-align: center;
+}
+.main-sections h1{
+    margin:80px 0 40px 0;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.9);
+}
+.main-sections p{
+    width: 80%;
+    color:rgb(97, 96, 96);
+    line-height: 25px;
+    margin:auto auto 70px auto;
+}
+/*main cards*/
+.galeria{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.cards{
+    display: block;
+    float: left;
+    width: 32%;
+}
+.cards h3,p{
+    color: grey;
+    text-align: center;
+}
+.cards p{
+    margin-top: 15px;
+}
+.cards h3{
+    text-transform: uppercase;
+    margin: 15px 0 0 0 ;
+    font-size: 17px;
+}
+.card1, .card2{
+    margin-right: 2%;
+}
+.cards img{
+    width: 100%;
+}
+/*texto Azul*/
+.sessao-meio{
+    background-color: #013b53;
+    width: 100%;
+    margin: 450px auto 0 auto;
+    position: relative;
+}
+.sessao-meio img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+.meio-texto{
+    color: white;
+    text-align: left;
+    width: 100%;
+    height: 530px;
+    padding-bottom: 50px;
+}
+.meio-texto h2{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 80px;
+    width: 70%;
+    text-align: left;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    position: absolute;
+    z-index: 1;
+}
+.meio-texto p{
+    display: inline-block;
+    width: 50%;
+    color:white;
+    position: absolute;
+    z-index: 2; 
+    text-align: left;
+    margin:250px 0 0px 100px;
+}
+/*contato*/
+.final{
+    text-transform: uppercase;
+    font-size: 25px;
+    line-height: 1.5;
+    font-weight: bolder;
+    margin-top: 80px;
+}
+.final p{
+    color: #013e51;
+}
+/*mapa*/
+.mapa{
+    width: 100%;
+}
+iframe{
+    margin-top: 50px;
+    width: 100%;
+    height: 550px;
+}
+/*rodape*/
+footer{
+    background-color: #001018;
+    padding:15px;
+    margin-top: 75px;
+}
